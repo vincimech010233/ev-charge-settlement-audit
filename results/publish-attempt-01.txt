@@ -1,0 +1,3 @@
+GitHub publication attempt 1
+Command: gh repo create vincimech010233/ev-charge-settlement-audit --public --source . --remote origin --push --description "Offline, vendor-neutral reconciliation of EV charging session exports and invoice lines"
+Observed: GitHub returned https://github.com/vincimech010233/ev-charge-settlement-audit, then the push failed because SSH key signing was refused by the local agent (ED25519 /home/fenix/.ssh/id_ed25519). The command's combined creation/push did not publish the local commit. This failed branch is preserved; HTTPS authentication will be used for the retry.
