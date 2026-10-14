@@ -1,0 +1,19 @@
+{
+  "classification": "VERIFIED",
+  "repository_url": "https://github.com/vincimech010233/ev-charge-settlement-audit",
+  "visibility": "public",
+  "publication_commit": "19f98c680f1b36af074ebf31c5167ccf06ce613a",
+  "commit_url": "https://github.com/vincimech010233/ev-charge-settlement-audit/commit/19f98c680f1b36af074ebf31c5167ccf06ce613a",
+  "ci": {
+    "workflow": "tests",
+    "run_id": 38542820086,
+    "run_url": "https://github.com/vincimech010233/ev-charge-settlement-audit/actions/runs/38542820086",
+    "conclusion": "success",
+    "python_versions": ["3.10", "3.12", "3.13"]
+  },
+  "pull_request_url": null,
+  "release_url": null,
+  "initial_ssh_push_attempt": "FAILED; local SSH agent refused ED25519 signing; see publish-attempt-01.txt",
+  "successful_transport": "HTTPS",
+  "recorded_at": "2026-10-14T09:30:24Z"
+}

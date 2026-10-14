@@ -20,7 +20,7 @@ Target users are accounts-payable analysts, fleet-energy managers, and CPO/MSP b
 
 ## Architecture and requirements
 
-Python 3.10 or later. The command-line entry point validates bounded UTF-8 CSV inputs, normalizes numeric values with `decimal.Decimal`, groups records by exact session ID, writes JSON and CSV outputs, and prints a short summary. Input files are limited to 25 MiB and 100,000 rows each. No package install or database is required. GitHub Actions is configured for Python 3.10, 3.12, and 3.13 using SHA-pinned actions; hosted workflow status is **NOT_VERIFIED** because this project has not been published.
+Python 3.10 or later. The command-line entry point validates bounded UTF-8 CSV inputs, normalizes numeric values with `decimal.Decimal`, groups records by exact session ID, writes JSON and CSV outputs, and prints a short summary. Input files are limited to 25 MiB and 100,000 rows each. No package install or database is required. GitHub Actions is configured for Python 3.10, 3.12, and 3.13 using SHA-pinned actions. The hosted test workflow succeeded on commit `19f98c680f1b36af074ebf31c5167ccf06ce613a`; see [Publication record](results/publication.json).
 
 ## Installation and use
 
@@ -71,4 +71,4 @@ MIT. See [LICENSE](LICENSE).
 
 ## Verifiable evidence
 
-Official sources and the novelty assessment are linked in [docs/EVIDENCE.md](docs/EVIDENCE.md). Evidence of local validation is kept in `results/`; no GitHub URL, commit, PR, CI run, or release exists yet.
+Official sources and the novelty assessment are linked in [docs/EVIDENCE.md](docs/EVIDENCE.md). Local and hosted validation, the public repository, exact commit, CI run, and the absence of a PR/formal release are recorded in `results/`.
