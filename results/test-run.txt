@@ -1,0 +1,20 @@
+test_bad_rows_are_retained_as_findings_while_good_rows_match (test_charge_audit.AuditTests.test_bad_rows_are_retained_as_findings_while_good_rows_match) ... ok
+test_clean_reconciliation_and_hashes (test_charge_audit.AuditTests.test_clean_reconciliation_and_hashes) ... ok
+test_cli_refuses_to_overwrite_an_input (test_charge_audit.AuditTests.test_cli_refuses_to_overwrite_an_input) ... charge-audit: error: output paths must not overwrite either input file
+ok
+test_cli_writes_json_and_csv_report_then_returns_exception_status (test_charge_audit.AuditTests.test_cli_writes_json_and_csv_report_then_returns_exception_status) ... ok
+test_csv_formula_injection_is_neutralized_after_whitespace_and_controls (test_charge_audit.AuditTests.test_csv_formula_injection_is_neutralized_after_whitespace_and_controls) ... ok
+test_duplicate_headers_are_rejected (test_charge_audit.AuditTests.test_duplicate_headers_are_rejected) ... ok
+test_duplicate_session_and_multiple_invoice_lines_are_not_silently_matched (test_charge_audit.AuditTests.test_duplicate_session_and_multiple_invoice_lines_are_not_silently_matched) ... ok
+test_extreme_decimal_exponents_are_rejected_as_invalid_rows (test_charge_audit.AuditTests.test_extreme_decimal_exponents_are_rejected_as_invalid_rows) ... ok
+test_missing_extra_amount_and_energy_variances (test_charge_audit.AuditTests.test_missing_extra_amount_and_energy_variances) ... ok
+test_negative_numeric_variance_remains_a_numeric_csv_cell (test_charge_audit.AuditTests.test_negative_numeric_variance_remains_a_numeric_csv_cell) ... ok
+test_repeated_invoice_line_id_across_different_sessions_is_reported (test_charge_audit.AuditTests.test_repeated_invoice_line_id_across_different_sessions_is_reported) ... ok
+test_report_bytes_are_deterministic (test_charge_audit.AuditTests.test_report_bytes_are_deterministic) ... ok
+test_tolerance_boundary_is_inclusive_and_negative_tolerance_rejected (test_charge_audit.AuditTests.test_tolerance_boundary_is_inclusive_and_negative_tolerance_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.017s
+
+OK
+matched=0 findings=1 amount_variance_eur=0.00

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "session_register_sha256": "7c9f2992c45a57890dc0a86b19bcb4bb9968d05986c739f9241600ebd81beac4",
+    "invoice_sha256": "67ca914ed91e9be2d01e3f914fbbdadedb3f6ab04c13b740f281590ac05c1771",
+    "session_rows": 3,
+    "invoice_rows": 3
+  },
+  "tolerances": {
+    "amount_eur": "0.01",
+    "energy_kwh": "0.01"
+  },
+  "summary": {
+    "matched_sessions": 2,
+    "session_register_ids": 3,
+    "invoice_session_ids": 3,
+    "invalid_session_rows": 0,
+    "invalid_invoice_rows": 0,
+    "finding_count": 3,
+    "findings_by_code": {
+      "amount_mismatch": 1,
+      "missing_invoice_line": 1,
+      "unexpected_invoice_line": 1
+    },
+    "matched_amount_variance_eur": "0.25",
+    "matched_energy_variance_kwh": "0"
+  },
+  "findings": [
+    {
+      "code": "amount_mismatch",
+      "session_id": "SYNTH-1002",
+      "source": "invoice",
+      "detail": "Invoice total differs from session-register expected total",
+      "amount_eur": "0.25",
+      "energy_kwh": "0"
+    },
+    {
+      "code": "missing_invoice_line",
+      "session_id": "SYNTH-1003",
+      "source": "invoice",
+      "detail": "Session register has no matching invoice line",
+      "amount_eur": "9.00",
+      "energy_kwh": "22.5"
+    },
+    {
+      "code": "unexpected_invoice_line",
+      "session_id": "SYNTH-1004",
+      "source": "session_register",
+      "detail": "Invoice line has no matching session-register row",
+      "amount_eur": "1.60",
+      "energy_kwh": "4"
+    }
+  ]
+}

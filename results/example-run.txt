@@ -1,0 +1,2 @@
+matched=2 findings=3 amount_variance_eur=0.25
+example_exit_status=2

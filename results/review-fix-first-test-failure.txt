@@ -1,0 +1,4 @@
+Preserved initial security-fix test run (2026-10-14, Python 3.12.3)
+Command: python3 -m unittest discover -s tests -v
+Result: 11 passed, 1 failed.
+Failure: test_csv_formula_injection_is_neutralized_after_whitespace_and_controls expected a different session-ID order than the implementation's documented deterministic lexical sort. Formula neutralization itself produced the intended escaped values; the test expectation was ordered incorrectly.
